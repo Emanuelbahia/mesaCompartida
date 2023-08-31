@@ -4,7 +4,7 @@ import { db } from "../firebaseConfig/firebase";
 import { Link } from "react-router-dom";
 import Table from 'react-bootstrap/Table'; 
 import { RiDeleteBin6Line } from "react-icons/ri";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../../context/authContext";
 import "./users.css";
 import NotFound from "../../pages/not found/NotFound";
 

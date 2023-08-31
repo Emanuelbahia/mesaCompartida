@@ -1,7 +1,7 @@
 //useContext para globalizar las funciones de firebase a toda nuestra aplicacion
 import { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from 'prop-types';
-import { auth } from "../firebaseConfig/firebase";
+import { auth } from "../components/firebaseConfig/firebase";
 import { 
     createUserWithEmailAndPassword, 
     signInWithEmailAndPassword, 

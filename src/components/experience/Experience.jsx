@@ -8,7 +8,7 @@ import Carousel from 'react-multi-carousel';
 import Toast from 'react-bootstrap/Toast';
 import { AiFillStar } from "react-icons/ai";
 import  Footer  from "../footer/Footer";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../../context/authContext";
 import logo from "../../assets/logo.png";
 import 'react-multi-carousel/lib/styles.css';
 import "./experience.css";

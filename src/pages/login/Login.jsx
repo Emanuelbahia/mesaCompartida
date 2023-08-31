@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { useAuth } from "../../components/context/authContext";
+import { useAuth } from "../../context/authContext";
 import { useNavigate, Link } from "react-router-dom";
 import { GoEye, GoEyeClosed } from "react-icons/go";
 import Menu from "../../components/menu/Menu";
