@@ -1,0 +1,509 @@
+.wraper-menu-experience{
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    
+}
+.logo-experience{
+    height: 9vw;
+    margin: 2vw;
+    background: #252525;
+    border-radius: 50%;
+}
+.container-body{
+    padding: 2vw 4vw;
+}
+.section-photos-event{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    
+}
+.more-photos{
+    top: 44vw;
+    position: absolute;
+    right: 2vw;
+    border: none;
+    background: #252525;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 0.5vw 1vw;
+}
+.carousel-photos{
+    width: 100%;
+}
+.img-experience-event{
+    width: 80%;
+    height: 80vw;
+    margin: 0 10%;
+    object-fit: cover;
+}
+.button-close-photos{
+    border: none;
+    width: 13vw;
+    height: 5vw;
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+    background: none;
+    color: #eeeeee;
+    font-size: 3vw;
+}
+.p-padding{
+    padding-left: 6vw;
+}
+.h3-experience-event{
+    font-size: 5vw;
+}
+.name-host-experience{
+    font-size: 2.5vw;
+    color: grey;
+    font-family: math;
+}
+.div-host-experience, .div-description-experience, .section-information-event, .aside-experience, .section-review,.section-rating, .section-location{
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 3vw;
+    margin-top: 4vw;
+    background-color: #f5f0f0;
+}
+.h3-title-host{
+    margin-bottom: 4vw;
+    background-color: #323232;
+    color: #eeeeee;
+    display: inline-block;
+    padding: 1vw;
+    border-radius: 4px;
+    font-size: 3vw;
+}
+.wraper-photo-name-perfil{
+    display: flex;
+    align-items: center;
+}
+.photo-perfil-host{
+    width: 10vw;
+    border-radius: 50%;
+}
+.name-perfil-host{
+    font-size: 3vw;
+    margin: 0;
+    padding-left: 2vw;
+}
+.p-description-host{
+    margin-bottom: 0;
+    margin-top: 2vw;
+    font-size: 2.4vw;
+}
+.wraper-data-experience{
+    display: flex;
+    justify-content: space-between;
+}
+.div-data-experience{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3vw;
+}
+.icon-data-experience{
+    font-size: 4vw;
+    color: orangered;
+    margin-bottom: 1vw;
+}
+.h6-description-icon{
+    font-size: 2vw;
+    text-align: center;
+}
+.many-descriptions-dinner{
+    margin-top: 4vw;
+}
+.h6-information{
+    width: 50%;
+}
+.wraper-information{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wraper-select-guests{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.select-guests{
+    width: 7vw;
+    text-align: center;
+    margin-left: 2vw;
+}
+.select-date{
+    width: 40vw;
+    text-align: center;
+    margin-left: 2vw;
+    
+}
+.label-guests{
+    font-weight: bold;
+    font-size: 2.8vw;
+    margin-bottom: 5vw;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    border: grey 1px solid;
+    padding: 4vw;
+    border-radius: 4px;
+    background: #dfd7d7;;
+    margin-bottom: 3vw;
+}
+.input-reserve{
+    margin-bottom: 2vw;
+}
+.button-reserve-dinner{
+    background: #323232;
+    border: none;
+    width: 50%;
+    margin: auto;
+    border-radius: 4px;
+    padding: 1vw;
+    color: #eeeeee;
+}
+.button-reserve-dinner:hover {
+    color: #ff8400;
+    scale: 110%;
+}
+.more-photos:hover {
+    color: #ff8400;
+    scale: 110%;
+}
+.show-toast{
+    background-color:#252525 !important;
+    margin-top: 2vh !important;
+    margin-bottom: 10vh!important;
+    color: orangered !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 15vh !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 2.5vw !important;
+}
+.description-toast{
+    font-size: 3.5vw;
+}
+.aside-experience{
+    margin-bottom: 4vw;
+}
+.div-review{
+    padding: 2vw;
+    background-color: #dfd7d7;;
+    border-radius: 4px;
+    margin-bottom: 3vw;
+}
+.h4-review{
+    font-size: 2.8vw;
+}
+.h5-reserve{
+    font-size: 2.2vw;
+    margin-bottom: 5vw;
+}
+.image-location{
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 4px 5px 17px 1px;
+}
+.section-rating{
+    display: flex;
+}
+.wraper-number-rating{
+    margin-right: 2vw;
+    background-color: #ff4500c7;
+    color: #eeeeee;
+    width: 25%;
+    border-radius: 5px;
+    font-size: 3vw;
+    padding: 1vw;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h4-rating{
+    margin: 0;
+    color: #eeeeee;
+    font-size: 2.5vw;
+}
+.h3-rating{
+    font-size: 4vw;
+    margin: 0;
+    color: #eeeeee;
+}
+.wraper-description-rating{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.label-progress{
+        width: 20vw; 
+}
+.star-rating{
+    color: #ffca00;
+    font-size: 3vw;
+}
+.h5-location{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+.message-login{
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+@media (min-width: 701px) {
+    .container-body {
+        padding: 2vw 8vw;
+    }
+    .h3-experience-event {
+        font-size: 4vw;
+    }
+    .name-host-experience {
+        font-size: 2vw;
+    }
+    .div-host-experience, .div-description-experience, .section-information-event, .aside-experience,.section-rating, .section-review, .section-location{
+        padding: 2vw;
+        margin-top: 3vw;
+    }
+    .h3-title-host{
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+    .photo-perfil-host {
+        width: 8vw;
+    }
+    .name-perfil-host {
+        font-size: 2.8vw;
+    }
+    .p-description-host{
+        font-size: 1.8vw;
+    }       
+    .many-descriptions-dinner {
+        margin-top: 1vw;
+    }
+    .h4-review {
+        font-size: 2vw;
+    }
+    .image-location{
+        height: 40vw;
+    } 
+    .h5-reserve {
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+    .section-photos-event{
+        height: 100vw;
+    }
+    .h3-rating{
+        font-size: 3.5vw;
+    }
+    .h4-rating{
+        font-size: 2vw;
+    }    
+    .star-rating{
+        font-size: 2vw;
+    }
+    .label-progress {
+        width: 15vh;
+    }
+    .wraper-number-rating {
+        margin-right: 4vw;
+    }   
+    .description-toast {
+        font-size: 3vw;
+    } 
+    .message-login{
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wraper-menu-experience{
+        width: 100%;
+        margin: 0;
+        height: 45vh;
+    }
+    .wraper-menu-experience, .section-photos-event, .container-body, .div-footer-pc{
+        width: 1300px;
+    }
+    .logo-experience{
+        height: 6vh;
+        margin: 3vh;
+    }
+    .more-photos {
+        top: 37vh;
+        right: 18vw;
+    }  
+    .container-body {
+        padding: 2vw 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    } 
+    .section-photos-event{
+        height: 80vh;
+    }
+    .img-experience-event {
+        width: 80%;
+        height: 50vh;
+    }
+    .button-close-photos {
+        right: 19vw;
+        top: 2vh;
+        font-size: 2.3vh;
+    }
+    .wraper-sections-experience, .aside-experience{
+        width: 48%;
+    }
+    .h3-experience-event {
+        font-size: 4.5vh;
+    }
+    .name-host-experience {
+        font-size: 2vh;
+    }
+    .div-host-experience, .div-description-experience, .section-information-event, .section-rating, .aside-experience, .section-review, .section-location {
+        padding: 2vh;
+        margin-top: 3vh;
+    }
+    .aside-experience{
+        margin-top: 0;
+    }
+    .h3-title-host {
+        font-size: 2vh;
+        padding: 1vh;
+        margin-bottom: 3vh;
+    }
+    .photo-perfil-host {
+        width: 8vh;
+    }   
+    .name-perfil-host {
+        font-size: 2.8vh;
+        padding-left: 2vh;
+    } 
+    .p-description-host {
+        font-size: 1.8vh;
+        margin-top: 2vh;
+    }
+    .h6-description-icon {
+        font-size: 1.8vh;
+    }
+    .icon-data-experience {
+        font-size: 3vh;
+    }
+    .div-review {
+        padding: 2vh;
+        margin-bottom: 3vh;
+    }   
+    .h4-review {
+        font-size: 2.5vh;
+    }
+    .p-description-host {
+        font-size: 1.7vh;
+    }  
+    .p-padding{
+        padding-left: 3vh;
+    }   
+    .image-location {
+        height: 30vh;
+    }
+    .h5-reserve {
+        font-size: 1.7vh;
+        margin-bottom: 3vh;
+    }
+    .form-container{
+        width: 95%;
+        padding: 3vh 5vh;
+        margin-bottom: 1vh;
+    }
+    .label-guests {
+        font-size: 2.2vh;
+        color: #323232;
+        margin-bottom: 5vh;
+    }
+    .select-guests {
+        width: 8vh;
+        margin-left: 1vh;
+    }
+    .select-date {
+        width: 15vw;
+        margin-left: 1vh;
+    }
+    .label-guests {
+        font-size: 2.2vh;
+        margin-bottom: 3vh;
+    }
+    .button-reserve-dinner{
+        padding: 1vh;
+    }
+   
+    .input-reserve, .wraper-select-guests {
+        margin-bottom: 2vh;
+    }
+    .wraper-number-rating {
+        margin-right: 1vh;
+        width: 16vh;
+        padding: 1vh;
+    }
+    .wraper-description-rating {
+        width: 60%;
+    }   
+    .h3-rating{
+        font-size: 3.5vh;
+    }
+    .h4-rating{
+        font-size: 2vh;
+    }    
+    .star-rating{
+        font-size: 2vh;
+    } 
+    .label-progress{
+        font-size: 1.8vh;
+    }
+    .all-stars-rating{
+        height: 4vh;
+        display: flex;
+        align-items: center;
+    }
+    .wraper-label-progress{
+        display: flex;
+        align-items: center;
+    }
+    .bar-progress{
+        font-size: 1.5vh;
+    }
+    .description-toast{
+        font-size: 2vh;
+    }
+    .h5-location{
+        font-size: 1.6vh;
+        margin-bottom: 2vh;
+    }
+    .message-login{
+        font-size: 2vh;
+        padding: 0 5vh;
+        font-size: 2vh;
+    }
+}

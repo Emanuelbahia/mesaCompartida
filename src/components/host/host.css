@@ -1,0 +1,140 @@
+.container-page-host{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wraper-header-host{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../../assets/registerPhoto.jpg");
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+.h3-header-host{
+    padding: 6VW 2vh;
+    color: #eeeeee;
+}
+.description-host, .host-img, .wraper-form-host{
+    padding: 3vw;
+    width: 100%;
+}
+.description-host ul {
+    padding: 3vw;
+    margin: 0;
+}
+.description-host ul li {
+    font-size: 2.2vw;
+    color: #323232;
+}
+.description-host h3 {
+    font-size: 3.5vw;
+    color: #252525;
+    margin-bottom: 2vw;
+}
+.description-host h4 {
+    font-size: 2.3vw;
+    color: #595959;
+}
+.host-img img {
+    width: 100%;
+}
+.host-img h4{
+    font-size: 2.5vw;
+    margin-top: 2vw;
+}
+.wraper-form-host h3 {
+    font-size: 3.5vw;
+    color: #252525;
+}
+.wraper-form-host h4 {
+    font-size: 2.3vw;
+    color: #595959;
+}
+.form-host{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #eeeeee;
+    padding: 5vw 5vw;
+    border-radius: 5px;
+    width: 60%;
+    margin-top: 6vw;
+}
+.form-host input {
+    border-radius: 5px;
+    border: 1px grey solid;
+}
+.form-host button {
+    width: 60%;
+    margin: auto;
+    border: none;
+    background: #323232;
+    color: #eeeeee;
+    border-radius: 5px;
+    padding: 1vw;
+    margin-top: 4vw;
+}
+
+@media (min-width: 701px) {
+
+    .description-host, .host-img, .wraper-form-host{
+        padding: 3vw 8vw;
+    }
+    .description-host h3, .wraper-form-host h3 {
+        font-size: 2.5vw;
+    }      
+    .description-host h4, .wraper-form-host h4, .description-host ul li, .host-img h4  {
+        font-size: 1.8vw;
+    }  
+}
+
+@media (min-width: 1024px) {
+    .description-host, .host-img, .wraper-form-host, .wraper-header-host{
+        max-width: 1300px;
+        padding: 3vh 0;
+    }
+    .h3-header-host{
+        width: 1300px;
+        font-size: 2.7vh;
+    }
+    .description-host h3, .wraper-form-host h3 {
+        font-size: 3vh;
+    }      
+    .description-host h4, .wraper-form-host h4, .description-host ul li, .host-img h4  {
+        font-size: 1.8vh;
+    }  
+    .description-host ul {
+        padding-top: 2vh;
+        padding-bottom: 0;
+    }   
+    .host-img img{
+        width: 50%;
+    } 
+    .host-img h4 {
+        width: 50%;
+        padding: 0 5vh;
+        font-size: 3vh;
+    }
+    .host-img {
+        display: flex;
+        align-items: center;
+    }
+    .form-host{
+        margin: 0;
+        padding: 4vh;
+        border-radius: 5px;
+        width: 45vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .form-host button {
+        padding: 1vh 4vh;
+        margin-top: 4vh;
+    }
+    .form-host input {
+        margin-bottom: 1.5vh;
+    }
+}

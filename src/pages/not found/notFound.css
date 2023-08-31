@@ -1,0 +1,153 @@
+.container-notfound{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+}
+.container-number{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vw;
+    height: 100vh;
+    width: 100vw;
+}
+.pot-notfound{
+    position: absolute;
+    width: 140vw;
+    margin-left: 28vw;
+}
+.four-notfound-left{
+    z-index: 10;
+    position: absolute;
+    width: 29vw;
+    top: 67vw;
+    left: 8vw;
+}
+.four-notfound-right{
+    z-index: 10;
+    position: absolute;
+    width: 29vw;
+    top: 66vw;
+    right: 14vw;
+}
+.egg-notfound{   
+    z-index: 10;
+    position: absolute;
+    width: 35vw;
+    top: 67vw;
+    left: 31vw;
+}
+.h2-notfound{
+    position: absolute;
+    top: 53vw;
+    font-size: 8vw;
+    color: #f7f7f4;
+    font-family: cursive;
+    font-weight: 600;
+}
+.h3-notfound{
+    position: absolute;
+    top: 100vw;
+    color: #252525;
+    font-size: 6vw;
+}
+.button-notfound{
+    top: 110vw;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    background: #eeeeee;
+    font-size: 3vw;
+}
+.link-notfound{
+    text-decoration: none;
+    color: #252525;
+}
+
+
+@media (min-width: 481px){ 
+
+    .pot-notfound{
+        width: 110vw;
+        margin-left: 23vw;
+    }
+    .container-number{
+        margin-top: 4vw;
+    }
+    .h2-notfound{
+        top: 22vw;
+        font-size: 6vw;
+    }
+    .four-notfound-left{
+        width: 23vw;
+        top: 32vw;
+        left: 17vw;
+    }
+    .egg-notfound{
+        width: 28vw;
+        top: 33vw;
+        left: 35vw;
+    }
+    .four-notfound-right{
+        width: 23vw;
+        top: 32vw;
+        right: 20vw;
+    }
+    .h3-notfound{
+        top: 59vw;
+        color: #252525;
+        font-size: 4vw;
+    }
+    .button-notfound{
+        top: 67vw;
+        padding: 0.5vw 1vw;
+        background: #eeeeee;
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1024px){ 
+
+    .pot-notfound {
+        width: 70vw;
+        margin-left: 17vw;
+    }
+    .container-number{
+        margin-top: -2vw;
+    }
+    .h2-notfound {
+        top: 10vw;
+        font-size: 4vw;
+        left: 41vw;
+    }
+    .four-notfound-left {
+        width: 15vw;
+        top: 16vw;
+        left: 31vw;
+    }
+    .egg-notfound {
+        width: 17vw;
+        top: 17vw;
+        left: 43vw;
+    }
+    .four-notfound-right {
+        width: 15vw;
+        top: 16vw;
+        right: 30vw;
+    }
+    .h3-notfound {
+        top: 33vw;
+        color: #252525;
+        font-size: 3vw;
+        left: 41vw;
+    }
+    .button-notfound {
+        top: 39vw;
+        padding: 0.2vw 0.5vw;
+        background: #eeeeee;
+        font-size: 1vw;
+        left: 48vw;
+    }
+}

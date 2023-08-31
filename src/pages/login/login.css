@@ -1,0 +1,113 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/reg5.jpg");
+    background-size: cover;
+    padding-bottom: 12vw;
+    height: 100vh;
+    
+}
+.wraper-menu-login{
+    width: 100vw ;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vh 4vh;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    margin-top: 20vw;
+    box-shadow: 2px 6px 8px 4px;
+    width: 40vh;
+}
+.button-login{
+    margin-top: 3vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #eeeeee;
+    padding: 0.8vw;
+}
+.input-login{
+    margin-bottom: 1vw;
+    background: none;
+    border: 1px #eeeeee solid;
+    border-radius: 5px;
+    color: #eeeeee;
+    position: relative;
+    width: 30vh;
+}
+.icon-eye{
+    position: absolute;
+    right: 50px;
+    color: #eeeeee;
+    font-weight: bold;
+}
+.label-login{
+    color: #252525;
+    font-weight: bold;
+}
+.alert-login{
+    color: red;
+    display: none;
+    font-size: 1vw;
+    margin: 0.5vw 0;
+}
+.message-register{
+    backdrop-filter: blur(10px);
+    padding: 2vh;
+    margin-top: 3vh;
+    color: #252525;
+    font-size: 2vh;
+    text-align: center;
+}
+
+@media (min-width: 701px) {
+
+    .form-login{
+        margin-top: 15vw;
+    }
+    .label-login{
+        color: white;
+        margin: 0.7vh 0px;
+    }
+    .alert-login{
+        font-size: 1.5vw;
+        margin: 0;
+    }
+    .message-register{
+        color: white;
+    }
+}
+@media (min-width: 1024px) {
+    .container-login{
+        max-width: 1300px;
+        margin: auto;
+    }
+    .wraper-menu-login{
+        max-width: 1300px;
+    }
+    .form-login{
+        margin-top: 18vh;
+    }
+    .button-login{
+        margin-top: 1vh;
+        padding: 0.8vh;
+    }  
+    .input-login{
+        margin-bottom: 1vh;
+    }      
+    .alert-login{
+        margin: 0;
+        font-size: 2vh;
+    }
+    .message-register{
+        width: 28vh;
+        color: white;
+        margin-top: 5vh;
+        border-radius: 5px;
+        font-size: 2vh;
+        text-align: center;      
+    }
+}

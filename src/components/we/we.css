@@ -1,0 +1,43 @@
+.container-we{
+    padding: 4vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2-we{
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+.p-we{
+    font-size: 2.5vw;
+}
+.h3-we{
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+.p-we-last{
+    font-size: 2.5vw;
+    margin-top: 5vw;
+}
+
+@media (min-width: 1024px) {
+    .container-we{
+        padding: 4vh 22vw;
+    }
+    .h2-we{
+        font-size: 3.5vh;
+        margin-bottom: 3vh;
+    }
+    .p-we{
+        font-size: 1.8vh;
+        margin-bottom: 5vh;
+    }
+    .h3-we{
+        font-size: 2vh;
+        margin-bottom: 5vh;
+    }
+    .p-we-last{
+        font-size: 1.8vh;
+        margin-top: 4vh;
+    }
+}

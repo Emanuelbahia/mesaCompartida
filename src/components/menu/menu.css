@@ -1,0 +1,191 @@
+.logo{
+    height: 9vw;
+    margin-right: 1vh;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.logo-title{
+    color: white;
+    margin: 0;
+    font-size: 3vw;
+}
+.logo-title:hover {
+  transform: scale(1.2);
+  margin-left: 1vh;
+}
+.wraper-logo{
+    display: flex;
+    padding: 2vw;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+    text-decoration: none;
+}
+.wraper-menu-logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.menu{
+    font-size: 6vw;
+    color: white;
+    margin-right: 4vw;
+}
+.navbar-menu{
+  display: none;
+}
+.link-navbar-pc:hover{
+  scale: 110%;
+  border-bottom: 2px #eeeeee solid;
+}
+.button-logOut{
+  background: none;
+  border: none;
+  color: white;
+}
+
+/*  HAMBURGER MENU */
+.nav-icon-5{
+    width: 35px;
+    height: 30px;
+    margin: 10px 4vh;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .nav-icon-5 span{
+    background-color: rgb(208, 205, 203);
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms
+  }
+  .nav-icon-5 span:nth-child(1){
+    top:0px;
+    left: 0px;
+  }
+  .nav-icon-5 span:nth-child(2){
+    top:13px;
+    left: 0px;
+    opacity:1;
+  }
+  .nav-icon-5 span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(1){
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(2){
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(3){
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+  .nav-icon-5.open span:nth-child(1){
+    transform: rotate(45deg);
+    top: 13px;
+    background-color: #eeeeee;
+  }
+  .nav-icon-5.open span:nth-child(2){
+    opacity:0;
+  }
+  .nav-icon-5.open span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 13px;
+    background-color: #eeeeee;
+  }
+  .nav .p-navbar {
+    display: none;
+  }
+  .div-links{
+    position: absolute;
+    top: -700px;
+    right: -2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all .5s ease;
+  }
+  .div-links.active{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252525;
+    z-index: -1; /* para que el menu se pueda ver */
+    transition: all .6s ease;
+  }
+  .navbar-link{
+    text-decoration: none;
+  }
+  .p-link{
+    color: #eeeeee;
+    margin-bottom: 5vw;
+  }
+  /* END HAMBURGER MENU */
+
+  @media (min-width: 701px){
+    .logo {
+      height: 7vw;
+    }
+    .logo-title{
+      font-size: 3vw;
+      color: #e5dcdc;
+    }
+  }
+    
+  
+
+  @media (min-width: 1024px) {
+    .icon{
+      display: none;
+    }
+    .navbar-menu{
+      display: flex;
+      margin-right: 4vw;
+    }
+    .link-navbar-pc{
+      text-decoration: none;
+      color: white;
+      margin-right: 2vw;
+    }
+    .link-navbar-pc-item{
+      text-decoration: none;
+      color: #252525;
+      margin-right: 2vw;
+    }
+    .dropdown{
+      color: white;
+      margin-right: 2vw;
+    }
+    .wraper-menu-logo {
+      width: 1300px;
+    }
+    .wraper-logo{
+      padding-left: 0;
+      padding: 2vh;
+      padding-left: 0;
+    }
+    .navbar-menu{
+      margin-right: 0;
+    }
+    .logo {
+      height: 3.2vw;
+    }
+    .logo-title{
+      font-size: 1.2vw;
+      color: #e5dcdc;
+    }
+  }

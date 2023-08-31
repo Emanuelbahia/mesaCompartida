@@ -1,0 +1,331 @@
+.wraper-header{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../../assets/dinner.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.h3-header-dinner{
+    padding: 6VW;
+    color: #eeeeee;
+    
+}
+.wraper-body-dinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw; 
+    background-color: #f9f6f6;
+}
+.img-dinner-experience-description{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.h4-dinner-experience-description{
+    color: #252525;
+    margin: 2vw;
+    text-align: center;
+    font-size: 3.5vw;
+}
+.p-dinner-experience-description{
+    font-size: 2.5vw;
+    padding: 0 2vw;
+}
+.some-experience-dinner{
+    width: 100%;
+}
+.description-experience-dinner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+.h2-experience-dinner{
+    text-align: center;
+    margin: 6vw 0;
+    font-size: 4vw;
+}
+.host1{
+    background-image: url("../../../public/host/host1f.jpg");
+    background-size: cover;
+}
+.host2{
+    background-image: url("../../../public/host/host2a.jpg");
+    background-size: cover;
+}
+.host3{
+    background-image: url("../../../public/host/host3f.jpg");
+    background-size: cover;
+}
+.host4{
+    background-image: url("../../../public/host/host4a.jpg");
+    background-size: cover;
+}
+.img-name-host{
+    
+    height: 60vw;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    border-radius: 5px 5px 0 0;
+}
+.price-dinner-host{
+    border: 1px #808080a3 solid;
+    width: 70%;
+    border-radius: 0 0 5px 5px;
+    height: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-host-profile{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 2px #eeeeee solid;
+    margin: 4vw 2vw;
+}
+.h5-host-profile{
+    color: #eeeeee;
+    margin-bottom: 6vw;
+    font-size: 3vw;
+}
+.span-h5-experience{
+    color: #eeeeee;
+    font-size: 2vw;
+}
+.span-star{
+    color: #FF9800;
+    font-size: 3.7vw;
+}
+.span-person{
+    font-size: 2.3vw;
+    color: grey;
+}
+.h5-rating-dinner{
+    margin-left: 2vw;
+    font-size: 2.7vw;
+}
+.h5-price-dinner{
+    margin-right: 2vw;
+    font-size: 3.2vw;
+}
+.container-reserve{
+    width: 100%;
+}
+.wraper-dinner-event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #808080a3 solid;
+    border-radius: 5px;
+    padding: 2vw;
+    background-color: white;
+    margin-bottom: 4vw;
+    box-shadow: 2px 3px 12px;
+    
+}
+.description-event-experience{
+    width: 65%;
+}
+.h4-event-experience{
+    color: #252525;
+    font-size: 3vw;
+}
+.h5-event-experience{
+    color: grey;
+    font-size: 2.2vw;
+}
+.reserve-event-experience{
+    text-decoration: none;
+    background: #252525;
+    padding: 0.6vw 1.5vw 1.05vw 1.5vw;
+    color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+}
+.reserve-event-experience:hover{
+    color: #ff8400;
+    scale: 110%;
+}
+.h5-chair-event-experience{
+    font-size: 2.5vw;
+    color: #595959;
+}
+.h5-date-event-experience{
+    font-size: 2.5vw;
+    color: #595959;
+}
+.img-dinner-experience{
+    width: 15%;
+}
+
+@media (min-width: 701px) {
+
+    .description-experience-dinner{
+        width: 49%;
+    }
+    .img-name-host {
+        height: 40vw;
+        width: 90%;
+    }
+    .price-dinner-host{
+        width: 90%;
+        height: 8vw;
+    }    
+    .some-experience-dinner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img-host-profile {
+        width: 6vw;
+        height: 6vw;
+        margin: 3vw 2vw;
+    }   
+    .h5-host-profile{
+        margin-bottom: 3.5vw;
+        font-size: 2vw;
+    } 
+    .span-h5-experience{
+        font-size: 1.5vw;
+    }
+    .span-star{
+        font-size: 2.5vw;
+    }
+    .h5-rating-dinner {
+        margin-left: 1vw;
+        font-size: 2vw;
+    }
+    .h5-price-dinner {
+        margin-right: 1vw;
+        font-size: 2.2vw;
+    }
+    .span-person {
+        font-size: 1.5vw;
+    }    
+    .img-dinner-experience {
+        width: 13%;
+    }
+    .h4-event-experience{
+        font-size: 2.5vw;
+    }
+    .h5-chair-event-experience, .h5-date-event-experience{
+        font-size: 2vw;
+    }
+    .h5-event-experience {
+        color: grey;
+        font-size: 1.7vw;
+        margin-top: 2vw;
+    }
+    .description-event-experience {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .dinner-experience-description, .some-experience-dinner, .container-reserve{
+        max-width: 1300px;
+    }
+    .img-dinner-experience-description {
+        width: 60%;
+        height: 40vh;
+    }
+    .h4-p-experience{
+        width: 40%;
+    }    
+    .dinner-experience-description {
+        display: flex;
+    }
+    .h4-dinner-experience-description {
+        margin: 2vw 0;
+        font-size: 3.5vh;
+    }
+    .p-dinner-experience-description {
+        font-size: 2vh;
+    }
+    .h2-experience-dinner{
+        margin: 6vh 0;
+        font-size: 4vh;
+    }   
+    .description-experience-dinner {
+        width: 25%;
+        margin-bottom: 0;
+    } 
+    .img-name-host {
+        height: 40vh;
+        width: 95%;
+    }
+    .img-host-profile {
+        width: 6vh;
+        height: 6vh;
+        margin: 3vh 2vh;
+    }
+    .h5-host-profile {
+        margin-bottom: 3.5vh;
+        font-size: 2vh;
+    }
+    .span-h5-experience {
+        font-size: 1.5vh;
+    }
+    .price-dinner-host {
+        width: 95%;
+        height: 8vh;
+    }
+    .h5-rating-dinner {
+        margin-left: 1vh;
+        font-size: 2.4vh;
+    }
+    .span-star {
+        font-size: 3vh;
+    }
+    .h5-price-dinner {
+        margin-right: 1vh;
+        font-size: 2.2vh;
+    }
+    .span-person {
+        font-size: 1.5vh;
+    }
+    .container-reserve{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .wraper-dinner-event {
+        width: 49%;
+        padding: 2vh;
+        margin-bottom: 4vh;
+    }    
+    .h4-event-experience {
+        font-size: 2.5vh;
+    }
+    .h5-chair-event-experience, .h5-date-event-experience{
+        font-size: 2vh;
+    }
+    .h5-event-experience {
+        font-size: 1.7vh;
+        margin-top: 0;
+    }
+    .description-event-experience {
+        width: 65%;
+    }
+    .reserve-event-experience{
+        padding: 0.6vh 1.5vh 1.05vh 1.5vh;
+    }
+    .wraper-header{
+        background-image: url("../../assets/dinnerpc.jpg");
+    }
+    .h3-header-dinner {
+        padding: 6Vh 2vh;
+        width: 1300px;
+    }
+    
+    }
