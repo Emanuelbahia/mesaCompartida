@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./components/context/authContext";
 import Layout from "./pages/layout/Layout";
 import Home from "./components/home/Home";
 import Register from "./pages/register/Register";
@@ -15,19 +16,21 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        <Route path="/" element={ <Layout /> } >
-          <Route index element={ <Home/> } />              
-          <Route path="we" element={ <We/> } />
-        </Route> 
-        <Route path="/gift" element={ <Gift/> } />
-        <Route path="/beHost" element={ <Host/> } />
-        <Route path="/dinner" element={ <Dinner/> } />
-        <Route path="/dinner/:id" element={ <Experience/> } />
-        <Route path="/register" element={ <Register/> } /> 
-        <Route path="/login" element={ <Login/> } /> 
-        <Route path="/users" element= { <Users/> } /> 
-      </Routes>
+      <AuthProvider>
+        <Routes>
+          <Route path="/" element={ <Layout /> } >
+            <Route index element={ <Home/> } />              
+            <Route path="we" element={ <We/> } />
+          </Route> 
+          <Route path="/gift" element={ <Gift/> } />
+          <Route path="/beHost" element={ <Host/> } />
+          <Route path="/dinner" element={ <Dinner/> } />
+          <Route path="/dinner/:id" element={ <Experience/> } />
+          <Route path="/register" element={ <Register/> } /> 
+          <Route path="/login" element={ <Login/> } /> 
+          <Route path="/users" element= { <Users/> } /> 
+        </Routes>
+      </AuthProvider>
     </div>
   )
 }
