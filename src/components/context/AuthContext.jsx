@@ -1,5 +1,6 @@
 //useContext para globalizar las funciones de firebase a toda nuestra aplicacion
 import { createContext, useContext, useEffect, useState } from "react";
+import PropTypes from 'prop-types';
 import { auth } from "../firebaseConfig/firebase";
 import { 
     createUserWithEmailAndPassword, 
@@ -21,7 +22,7 @@ export const useAuth = () => {
 };
 
 //creo un provider para globalizar el contexto y compartir informacion entre componentes
-export function AuthProvider({ children }) {
+export function AuthProvider({ children }) { 
 
     //con user tengo los datos de la persona q se logueo
     const [user, setUser] = useState("");
@@ -57,10 +58,18 @@ export function AuthProvider({ children }) {
     }
 
     //con value exportamos las funciones
-    return <authContext.Provider value={{
-        register, login, loginWithGoogle, logout, user
-    }}> 
-        {children} 
+    return ( 
+        <authContext.Provider value={{
+            register,
+            login,
+            loginWithGoogle,
+            logout,
+            user
+        }}> 
+            { children }
         </authContext.Provider>
-    
+    )
 } 
+AuthProvider.propTypes = {
+    children: PropTypes.node.isRequired
+  };
