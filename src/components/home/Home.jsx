@@ -1,7 +1,7 @@
 import { BsGift } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
-import { useAuth } from "../../context/authContext";
+import { useAuth } from "../../context/AuthContext";
 import 'react-multi-carousel/lib/styles.css';
 import ce1  from "../../assets/ce1.jpg";
 import vegano from "/vegano.jpg";
