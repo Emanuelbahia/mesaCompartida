@@ -42,7 +42,7 @@ function Host() {
                     <li>Flexibilidad para crear tú menú y elegir las fechas y horarios.</li>
                     <li>Registro fácil y sin costo.</li>
                     <li>Ningún costo fijo por utilizar nuestra plataforma.</li>
-                    <li>Publicidad en la cuenta de instagram de Como en casa.</li>
+                    <li>Publicidad en la cuenta de instagram de Mesa compartida.</li>
                 </ul>
             </div>
             <div className="host-img">

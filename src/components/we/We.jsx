@@ -22,7 +22,7 @@ function We() {
                 - Responsabilidad del anfitrión: Los anfitriones se comprometen a ofrecer experiencias gastronómicas auténticas y de calidad, garantizando la seguridad e higiene de los alimentos.<br/>
                 - Responsabilidad del comensal: Los comensales deben respetar las normas y pautas establecidas por los anfitriones, mantener un comportamiento respetuoso y pagar el costo acordado por la experiencia.<br/>
                 - Cancelaciones: Cualquier cancelación debe realizarse con antelación y seguir las políticas establecidas por el anfitrión.<br/>
-                - Comisión: &quot;Como en casa&quot; cobrará una comisión por cada silla ocupada durante la experiencia gastronómica.
+                - Comisión: &quot;Mesa compartida&quot; cobrará una comisión por cada silla ocupada durante la experiencia gastronómica.
             </p>
             <h2 className="h2-we">Política de Privacidad:</h2>
             <h3 className="h3-we">
