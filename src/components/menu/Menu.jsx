@@ -45,10 +45,16 @@ function Menu() {
                 </Link>              
                 <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/gift">        
                     <h4 className="p-link">Tarjetas regalo</h4>          
-                </Link>                                
-                <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/login">         
-                    <h4 className="p-link">Log in</h4>         
-                </Link>
+                </Link>  
+                {
+                    !userOnline ?
+                    <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/login">         
+                        <h4 className="p-link">Log in</h4>         
+                    </Link>
+                    :
+                    <button className="button-logOut-link" onClick={ () => handleLogOut() }>Log out</button>
+                }                              
+                
             </div> 
             <div className="navbar-menu">
                 <Link className="link-navbar-pc" to="/we">¿Que somos?</Link>
