@@ -7,7 +7,7 @@ import Validation from "../../valifationForm";
 import calculateDate from "../../components/CalculateDate";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../components/firebaseConfig/firebase";
-import { useAuth } from "../../context/authContext";
+import { useAuth } from "../../context/AuthContext";
 
 function Register() {
 
