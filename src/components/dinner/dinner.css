@@ -50,19 +50,19 @@
     font-size: 4vw;
 }
 .host1{
-    background-image: url("../../assets/host/host1f.jpg");
+    background-image: url("../../assets/host1f.jpg");
     background-size: cover;
 }
 .host2{
-    background-image: url("../../assets/host/host2a.jpg");
+    background-image: url("../../assets/host2a.jpg");
     background-size: cover;
 }
 .host3{
-    background-image: url("../../assets/host/host3f.jpg");
+    background-image: url("../../assets/host3f.jpg");
     background-size: cover;
 }
 .host4{
-    background-image: url("../../assets/host/host4a.jpg");
+    background-image: url("../../assets/host4a.jpg");
     background-size: cover;
 }
 .img-name-host{
