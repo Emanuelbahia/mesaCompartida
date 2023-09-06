@@ -18,7 +18,7 @@
       "../../src/assets/host1g.jpg"
     ],
     "host": "Mi nombre es Carolina Dambrosio, tengo 37 años, trabajo de administrativa en una empresa pyme hace ya 15 años, y estoy un poco aburrida de la rutina. Siempre me apasiono la gastronomía y cuando le cocino a mis amigas en reuniones sociales recibo muchos elogios, y por eso decidí acondicionar el living de mi casa para hacer lo que me gusta y probar suerte.",
-    "photoPerfil": "../../assets/host1p.jpg",
+    "photoPerfil": "../../src/assets/host1p.jpg",
     "dinner": "Pasta al pesto con gambas",
     "chairs": 6,
     "time": "20:00",
@@ -32,7 +32,7 @@
     "review2": "La cena duró alrededor de 4 horas, pero cada minuto fue una delicia para mis sentidos. La pasta al pesto era simplemente excepcional: la combinación de la frescura de la albahaca, el sabor a nuez de los piñones y el toque de ajo se fusionaron perfectamente en una deliciosa salsa que se adhería a la pasta de manera divina.",
     "reviewGuest1": "Juan cruz",
     "reviewGuest2": "Agostina",
-    "location": "../../src/assets/dire1.jpg",
+    "location": "/dist/assets/dire1.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -90,7 +90,7 @@
     "review2": "El ambiente de la cena fue cálido y acogedor, lo que hizo que la experiencia fuera aún más especial. El anfitrión, quien es un chef profesional, compartió su pasión por la gastronomía con nosotros, brindándonos una velada que fue más que una simple cena, fue un verdadero viaje culinario a través de la auténtica cocina mexicana.",
     "reviewGuest1": "Emiliano",
     "reviewGuest2": "Joaquin",
-    "location": "../../src/assets/dire2.jpg",
+    "location": "/dist/assets/dire2.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -145,7 +145,7 @@
     "review2": "En resumen, la cena de Pollo al Bourbon en casa de Ornella y Martin fue una experiencia gastronómica de lujo que superó todas mis expectativas. Si tienes la oportunidad de asistir a una cena organizada por esta talentosa pareja, no lo dudes ni un segundo. ¡Te aseguro que vivirás una velada inolvidable llena de sabores y calidez sureña!",
     "reviewGuest1": "Maria jose",
     "reviewGuest2": "Federico",
-    "location": "../../src/assets/dire3.jpg",
+    "location": "/dist/assets/dire3.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -201,7 +201,7 @@
     "review2": "El plato principal, los salteados de verduras y gambas, fue simplemente exquisito. La combinación de verduras frescas y crujientes junto con las gambas jugosas y bien sazonadas fue un verdadero deleite para el paladar. Cada bocado nos transportaba a la esencia de la cocina asiática, con sabores auténticos y una armonía perfecta entre los ingredientes.",
     "reviewGuest1": "Natalia",
     "reviewGuest2": "Alejandro",
-    "location": "../../src/assets/dire4.jpg",
+    "location": "/dist/assets/dire4.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -259,7 +259,7 @@
     "review2": "Además de la deliciosa comida y el vino, la compañía de Carolina y los demás comensales fue excepcional. Las conversaciones animadas y la camaradería hicieron que la cena fuera aún más especial y memorable.",
     "reviewGuest1": "Gisela",
     "reviewGuest2": "Melisa",
-    "location": "../../src/assets/dire1.jpg",
+    "location": "/dist/assets/dire1.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -313,7 +313,7 @@
     "review2": "Fue una experiencia culinaria que superó todas las expectativas. Si tienes la oportunidad de asistir a una cena organizada por este talentoso anfitrión, no lo dudes ni un segundo. Sin duda, será una velada llena de sabores, calidez humana y momentos inolvidables que recordarás con cariño.",
     "reviewGuest1": "Josefina",
     "reviewGuest2": "Ariel",
-    "location": "../../src/assets/dire4.jpg",
+    "location": "/dist/assets/dire4.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -368,7 +368,7 @@
     "review2": "Además de la deliciosa comida, el ambiente en la casa de Fernando era acogedor y relajado, lo que hizo que la cena fuera aún más placentera. Las conversaciones animadas y la compañía de otros comensales hicieron que la velada fuera inolvidable.",
     "reviewGuest1": "Diego",
     "reviewGuest2": "Joaquina",
-    "location": "../../src/assets/dire2.jpg",
+    "location": "/dist/assets/dire2.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
@@ -423,7 +423,7 @@
     "review2": "El Tartar de salmón fue simplemente exquisito. Los cubos de salmón fresco mezclados con el aderezo de limón, eneldo y cebolla roja crearon una combinación de sabores que deleitaron nuestros paladares. El tartar estaba delicadamente presentado en el plato, y cada bocado era una experiencia única.",
     "reviewGuest1": "Gonzalo",
     "reviewGuest2": "Melisa",
-    "location": "../../src/assets/dire2.jpg",
+    "location": "/dist/assets/dire2.jpg",
     "information": [
       "-Aire acondicionado",
       "-Wifi disponible",
