@@ -29,7 +29,7 @@
 .label-register{
     font-size: 2.3vw;
     margin-top: 1.5vw;
-    color: #eeeeee;
+    color: white;
 }
 .field-register{
     border-radius: 4px;
@@ -38,8 +38,12 @@
     border-bottom: 1px #595959 solid;
     width: 40vw;
     margin-top: 0.5vw;
-    color: #eeeeee;
+    color: #ffffffd9;
     position: relative;
+    padding-left: 1vh;
+}
+.field-register::placeholder {
+    color: #b7b7b7;
 }
 .wraper-input-icon-password{
     margin-top: 0.5vw;
@@ -98,8 +102,7 @@
 @media (min-width: 1024px) {
     .div-menu-register{
         display: flex;
-        justify-content: center;
-        width: 1300px;
+        justify-content: center;    
     }
     .h2-register {
         font-size: 3vh;
@@ -132,10 +135,6 @@
     .label-register {
         font-size: 2.3vh;
         margin-top: 1.5vh
-    }
-    .container-register{
-        width: 1300px;
-        margin: auto;
     }
     .span-password{
         font-size: 1.5vh;

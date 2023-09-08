@@ -41,7 +41,7 @@ function Menu() {
                     <h4 className="p-link">Sé comensal</h4>         
                 </Link>
                 <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/dinner">          
-                    <h4 className="p-link">Experienia gastronómica</h4>         
+                    <h4 className="p-link">Eventos gastronómicos</h4>         
                 </Link>              
                 <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/gift">        
                     <h4 className="p-link">Tarjetas regalo</h4>          
@@ -49,10 +49,10 @@ function Menu() {
                 {
                     !userOnline ?
                     <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/login">         
-                        <h4 className="p-link">Log in</h4>         
+                        <h4 className="p-link">Inicia cesión</h4>         
                     </Link>
                     :
-                    <button className="button-logOut-link" onClick={ () => handleLogOut() }>Log out</button>
+                    <button className="button-logOut-link" onClick={ () => handleLogOut() }>Cerrar cesión</button>
                 }                              
                 
             </div> 
@@ -60,13 +60,13 @@ function Menu() {
                 <Link className="link-navbar-pc" to="/we">¿Que somos?</Link>
                 <Link className="link-navbar-pc" to="/beHost">Sé anfitrión</Link>
                 <Link className="link-navbar-pc m-r" to="/register">Sé comensal</Link>            
-                <Link className="link-navbar-pc" to="/dinner">Experienia gastronómica</Link>             
+                <Link className="link-navbar-pc" to="/dinner">Eventos gastronómicos</Link>             
                 <Link className="link-navbar-pc" to="/gift">Tarjeta regalo</Link>
                 {
                     !userOnline ? 
-                    <Link className="link-navbar-pc" to="/login">Log in</Link>
+                    <Link className="link-navbar-pc" to="/login">Inicia cesión</Link>
                     :
-                    <button className="button-logOut" onClick={ () => handleLogOut() }>Log out</button>
+                    <button className="button-logOut" onClick={ () => handleLogOut() }>Cerrar cesión</button>
                 }           
             </div>
         </div> 

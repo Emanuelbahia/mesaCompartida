@@ -9,9 +9,10 @@ import Toast from 'react-bootstrap/Toast';
 import { AiFillStar } from "react-icons/ai";
 import  Footer  from "../footer/Footer";
 import { useAuth } from "../../context/AuthContext";
-import logo from "../../assets/logo.png";
+//import logo from "../../assets/logo.png";
 import 'react-multi-carousel/lib/styles.css';
 import "./experience.css";
+import Menu from "../menu/Menu";
 
 function Experience() {
 
@@ -54,12 +55,15 @@ function Experience() {
     };
 
     return ( 
-        <div className="container-experience">         
+        <div className="container-experience"> 
+            <div style={{ backgroundColor: "#252525", width: "100vw"}} >
+              <Menu/> 
+            </div> 
             { !show ?
             <div className="wraper-menu-experience" style={{ backgroundImage: `url(${host[params.id].image[0]})` }} >
-              <Link to="/">
+              {/* <Link to="/">
                   <img className="logo-experience" src={ logo }  />
-              </Link>
+              </Link> */}
               <button onClick={ () => { setShow(!show) } }  className="more-photos">Más fotos</button>
             </div>
                : 
@@ -72,10 +76,11 @@ function Experience() {
               </Carousel>
             </section>
             } 
+            <h3 className="h3-experience-event">{ host[params.id].dinner }</h3> 
+            <h5 className="name-host-experience">Organizado por { host[params.id].name } { host[params.id].surname } </h5>  
             <div className="container-body">
               <div className="wraper-sections-experience">
-                <h3 className="h3-experience-event">{ host[params.id].dinner }</h3> 
-                <h5 className="name-host-experience">Organizado por { host[params.id].name } { host[params.id].surname } </h5>            
+                          
                 <section className="section-description-event">
                   <div className="div-host-experience">
                     <h3 className="h3-title-host">Anfitrión</h3>
@@ -223,7 +228,7 @@ function Experience() {
                     userOnLine ? 
                     <button type="submit" className="button-reserve-dinner">Reservar</button>
                     :
-                    <h5 className="message-login">Para hacer una reserva tenés que estar registrado y logueado, haz click <Link to="/login">aquí</Link> </h5>
+                    <h5 className="message-login">Para hacer una reserva tenés que estar registrado e iniciar cesión, haz click <Link to="/login">aquí</Link> </h5>
                   }
                  
                   

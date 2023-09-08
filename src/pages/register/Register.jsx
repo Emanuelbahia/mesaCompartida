@@ -244,7 +244,7 @@ function Register() {
                     <input type="date" className="field-register"  onChange={ e => setDate(e.target.value)} required />
                 </div>
                 <div className="div-label-register">
-                    <label className="label-register">Password:<span className="span-password">(entre 6 y 15 caracteres)</span></label>
+                    <label className="label-register">Contraseña:<span className="span-password">(entre 6 y 15 caracteres)</span></label>
                     <div className="wraper-input-icon-password">
                         <input name="password"
                         ref={inputPasswd} 
@@ -258,7 +258,7 @@ function Register() {
                     {errors.password && <p style={{color:"red"}}>{errors.password}</p>}                      
                 </div>
                 <div className="div-label-register">
-                    <label className="label-register">Confirm Password:</label>
+                    <label className="label-register">Confirma contraseña:</label>
                     <input name="confirmPassword"
                     ref={inputConfirmPasswd} 
                     type="password" 

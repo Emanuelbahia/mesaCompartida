@@ -101,7 +101,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Carolina Dambrosio</h5>
                         </div>
-                        <Link to="/dinner/0" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/0" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d1 } />
@@ -111,7 +111,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Fernando Belasteguin</h5>
                         </div>
-                        <Link to="/dinner/1" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/1" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d2 } />
@@ -121,7 +121,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Ornella Sanchez</h5>
                         </div>
-                        <Link to="/dinner/2" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/2" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d3 } />
@@ -131,7 +131,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Maximiliano Darroze</h5>
                         </div>
-                        <Link to="/dinner/3" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/3" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d4 } />
@@ -141,7 +141,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Carolina Dambrosio</h5>
                         </div>
-                        <Link to="/dinner/4" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/4" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d5 } />
@@ -151,7 +151,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Maximiliano Darroze</h5>
                         </div>
-                        <Link to="/dinner/5" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/5" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d6 } />
@@ -161,7 +161,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Fernando Belasteguin</h5>
                         </div>
-                        <Link to="/dinner/6" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/6" className="reserve-event-experience">Reservar</Link>
                     </div>
                     <div className="wraper-dinner-event">
                         <img className="img-dinner-experience" src={ d8 } />
@@ -171,7 +171,7 @@ function Dinner() {
                             <h5 className="h5-date-event-experience"><strong>Fechas en:</strong> Agosto </h5>
                             <h5 className="h5-event-experience">Por Fernando Belasteguin</h5>
                         </div>
-                        <Link to="/dinner/7" className="reserve-event-experience">Fechas</Link>
+                        <Link to="/dinner/7" className="reserve-event-experience">Reservar</Link>
                     </div>
                 </section>              
             </div>

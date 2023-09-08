@@ -62,12 +62,12 @@ function Host() {
                     <input type="text" name="surname_host" placeholder="Galan" required/>
                     <label>Teléfono:</label>
                     <input type="text" name="phone_host" placeholder="2915232323" required/>
-                    <label>Email:</label>
+                    <label>Correo electrónico:</label>
                     <input type="text" name="email_host" placeholder="fergalan@gmail.com" required/>
                     <button>Ser anfitrión</button>
                 </form>
             </div>
-            <div style={{ width: "1300px" }}>
+            <div style={{ width: "100vw" }}>
             <   Footer/>
             </div>
         </div>

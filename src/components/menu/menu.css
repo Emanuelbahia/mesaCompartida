@@ -178,17 +178,14 @@
       color: white;
       margin-right: 2vw;
     }
-    .wraper-menu-logo {
-      width: 1300px;
-    }
+    
     .wraper-logo{
-      padding-left: 0;
+     /*  padding-left: 0; */
       padding: 2vh;
-      padding-left: 0;
     }
-    .navbar-menu{
+    /* .navbar-menu{
       margin-right: 0;
-    }
+    } */
     .logo {
       height: 3.2vw;
     }

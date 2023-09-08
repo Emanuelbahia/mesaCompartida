@@ -23,7 +23,7 @@
     
 }
 .more-photos{
-    top: 44vw;
+    top: 55vw;
     position: absolute;
     right: 2vw;
     border: none;
@@ -47,7 +47,7 @@
     height: 5vw;
     position: absolute;
     right: 2vw;
-    top: 2vw;
+    top: 15vw;
     background: none;
     color: #eeeeee;
     font-size: 3vw;
@@ -57,17 +57,27 @@
 }
 .h3-experience-event{
     font-size: 5vw;
+    padding-left: 4vw;
+    margin-top: 2vw;
 }
 .name-host-experience{
     font-size: 2.5vw;
     color: grey;
     font-family: math;
+    padding-left: 4vw;
 }
-.div-host-experience, .div-description-experience, .section-information-event, .aside-experience, .section-review,.section-rating, .section-location{
+.div-description-experience, .section-information-event, .aside-experience, .section-review,.section-rating, .section-location{
     border: 1px grey solid;
     border-radius: 5px;
     padding: 3vw;
     margin-top: 4vw;
+    background-color: #f5f0f0;
+}
+.div-host-experience {
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 3vw;
+    margin-top: 0;
     background-color: #f5f0f0;
 }
 .h3-title-host{
@@ -310,7 +320,10 @@
         margin-bottom: 3vw;
     }
     .section-photos-event{
-        height: 100vw;
+        height: 60vw;
+    }
+    .carousel-photos{
+        height: 55vw;
     }
     .h3-rating{
         font-size: 3.5vw;
@@ -333,6 +346,10 @@
     .message-login{
         font-size: 2vw;
     }
+    .button-close-photos{
+        top: 8vw;
+        font-size: 2vw;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -346,33 +363,36 @@
         margin: 0;
         height: 45vh;
     }
-    .wraper-menu-experience, .section-photos-event, .container-body, .div-footer-pc{
+    .container-body {
         width: 1300px;
+    }
+    .div-footer-pc{
+        width: 100vw;
     }
     .logo-experience{
         height: 6vh;
         margin: 3vh;
     }
     .more-photos {
-        top: 37vh;
-        right: 18vw;
+        top: 45vh;
+        right: 3vw;
     }  
     .container-body {
-        padding: 2vw 0;
+        padding: 2vh 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
     } 
     .section-photos-event{
-        height: 80vh;
+        height: 70vh;
     }
     .img-experience-event {
         width: 80%;
         height: 50vh;
     }
     .button-close-photos {
-        right: 19vw;
-        top: 2vh;
+        right: 1vh;
+        top: 10vh;
         font-size: 2.3vh;
     }
     .wraper-sections-experience, .aside-experience{
@@ -380,13 +400,20 @@
     }
     .h3-experience-event {
         font-size: 4.5vh;
+        width: 1300px;
+        margin-top: 2vh;
     }
     .name-host-experience {
         font-size: 2vh;
+        width: 1300px;
     }
-    .div-host-experience, .div-description-experience, .section-information-event, .section-rating, .aside-experience, .section-review, .section-location {
+    .div-description-experience, .section-information-event, .section-rating, .aside-experience, .section-review, .section-location {
         padding: 2vh;
         margin-top: 3vh;
+    }
+    .div-host-experience{
+        padding: 2vh;
+        margin-top: 0;
     }
     .aside-experience{
         margin-top: 0;
@@ -505,5 +532,8 @@
         font-size: 2vh;
         padding: 0 5vh;
         font-size: 2vh;
+    }
+    .carousel-photos {
+        height: 50vh;
     }
 }

@@ -14,12 +14,12 @@
 .form-login{
     display: flex;
     flex-direction: column;
-    padding: 2vh 5vh 4vh;
+    padding: 4vh 5vh;
     border-radius: 5px;
     backdrop-filter: blur(10px);
     margin-top: 20vw;
     box-shadow: 2px 6px 8px 4px;
-    width: 40vh;
+    width: 50vh;
 }
 .button-login{
     margin-top: 3vw;
@@ -36,7 +36,7 @@
     border-radius: 5px;
     color: #eeeeee;
     position: relative;
-    width: 30vh;
+    width: 40vh;
 }
 .icon-eye{
     position: absolute;
@@ -81,15 +81,16 @@
     }
 }
 @media (min-width: 1024px) {
-    .container-login{
+   /*  .container-login{
         max-width: 1300px;
         margin: auto;
     }
     .wraper-menu-login{
         max-width: 1300px;
-    }
+    } */
     .form-login{
         margin-top: 18vh;
+        width: 45vh;
     }
     .button-login{
         margin-top: 1vh;
@@ -97,6 +98,7 @@
     }  
     .input-login{
         margin-bottom: 1vh;
+        width: 35vh;
     }      
     .alert-login{
         margin: 0;

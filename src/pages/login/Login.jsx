@@ -56,10 +56,10 @@ function Login() {
                 <Menu/>
             </div>
             <form className="form-login" onSubmit={handleSubmitLogin}>
-                <label className="label-login">Email:</label>
+                <label className="label-login">Correo electrónico:</label>
                 <input ref={ inputEmail } className="input-login" type="email" onChange={(e) => setEmail(e.target.value)} />
-                <h4 ref={ alertEmail } className="alert-login">El email es inválido</h4>
-                <label className="label-login">Password:</label>
+                <h4 ref={ alertEmail } className="alert-login">El correo es inválido</h4>
+                <label className="label-login">Contraseña:</label>
                 <div>
                 <input 
                     ref={ inputPassword } 
