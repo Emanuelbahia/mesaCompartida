@@ -10,6 +10,7 @@ import Experience from "./components/experience/Experience";
 import We from "./components/we/We";
 import Users from "./components/users/Users";
 import Login from "./pages/login/Login";
+import NotFound from "./pages/not found/NotFound";
 
 function App() {
   
@@ -28,7 +29,8 @@ function App() {
           <Route path="/dinner/:id" element={ <Experience/> } />
           <Route path="/register" element={ <Register/> } /> 
           <Route path="/login" element={ <Login/> } /> 
-          <Route path="/users" element= { <Users/> } /> 
+          <Route path="/users" element= { <Users/> } />
+          <Route path="*" element= { <NotFound/> } /> 
         </Routes>
       </AuthProvider>
     </div>

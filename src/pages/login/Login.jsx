@@ -70,7 +70,7 @@ function Login() {
                     <span className="icon-eye" onClick={ handlePassword }> { showPassword ? <GoEyeClosed/> : <GoEye/> }  </span>
                 </div>    
                 <h4 ref={ alertPassword } className="alert-login">La contraseña es incorrecta</h4>
-                <button type="submit" className="button-login">Log in</button>
+                <button type="submit" className="button-login">Inicia cesión</button>
             </form> 
             {/* <button onClick={(e) => handleGoogle(e)}>Google</button> */}
             <h5 className="message-register">Si no estás registrado, <br/> haz click <Link to="/register">aquí</Link> </h5>  

@@ -180,12 +180,8 @@
     }
     
     .wraper-logo{
-     /*  padding-left: 0; */
-      padding: 2vh;
+      padding: 2vh 6vh;
     }
-    /* .navbar-menu{
-      margin-right: 0;
-    } */
     .logo {
       height: 3.2vw;
     }

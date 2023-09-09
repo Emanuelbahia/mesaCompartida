@@ -6,12 +6,14 @@
     background-image: url("../../assets/gift2.jpg");
     background-size: cover;
     height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .h3-gift-menu{
     color: #eeeeee;
-    top: 29vh;
     margin-left: 3vh;
-    position: absolute;
 }
 .description-gift, .form-gift, .wraper-gift-promotion, .wraper-explication{
     padding: 2vw 5vw;
@@ -204,5 +206,9 @@
     .icon-gift-page{
         margin-left: 2vh;
     }    
-    
+    .h3-gift-menu{
+        padding: 6Vh 0;
+        width: 1300px;
+        margin-left: 0;
+    }
 }

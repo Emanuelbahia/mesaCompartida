@@ -97,7 +97,8 @@
         padding: 3vh 0;
     }
     .h3-header-host{
-        width: 100vw;
+        padding: 6Vh 0;
+        width: 1300px;
         font-size: 2.7vh;
     }
     .description-host h3, .wraper-form-host h3 {
