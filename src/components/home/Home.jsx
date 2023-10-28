@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
 import { useAuth } from "../../context/AuthContext";
 import 'react-multi-carousel/lib/styles.css';
-import ce1  from "../../assets/ce1.jpg";
-import vegano from "/vegano.jpg";
-import claseCocina from "../../assets/clasecocina.jpg";
-import ce5 from "../../assets/ce5.jpg";
+//import ce1  from "../../assets/ce1.jpg";
+//import vegano from "/vegano.jpg";
+//import claseCocina from "../../assets/clasecocina.jpg";
+//import ce5 from "../../assets/ce5.jpg";
 import host from "../../assets/host.jpg";
 import ce4 from "../../assets/ce4.jpg";
 import ce3 from "../../assets/ce3.jpg";
@@ -41,15 +41,17 @@ function Home() {
       <section className="home-experience">
         <h1>¿Qué somos?</h1>
         <p className="p-h1">
-        Una plataforma que conecta anfitriones con comensales. Se trata de una estructura dentro de la cual los usuarios
-                aportan valor entre ellos. Se crea una red donde un segmento de clientes, los anfitriones, ofrecen sus &quot;eventos gastronómicos&quot;,
-                al otro segmento de clientes, llamados comensales, que son los que buscan una experiencia gastronómica única, diferente y con una 
-                fuerte valoración en el intercambio social en un lugar que se sientan &quot;Como en casa&quot;.<br/>
-                Cada anfitrión subirá el evento gastronómico que realizará en distintas fechas con todos los detalles de la misma, como la cantidad de lugares que tendrá
-                y la cena que hará esa noche.<br/>
-                Los comensales primero deberán registrarse para poder reservar sus lugares (sillas) en una experiencia gastronómica, en la fecha que deseen.
+        Mesa Compartida es una plataforma que conecta anfitriones con comensales.
+        Los anfitriones son los dueños del espacio y los verdaderos protagonistas que crean su propuesta de valor y 
+        ofrecen su &quot;Mesa Compartida&quot; a los comensales.
+        Los comensales, son aquellas personas que buscan propuestas con base gastronómica diferenciada, única, 
+        con una fuerte valoración en el intercambio social.
+        Vos podes elegir que lugar te gustaria ocupar y asi ponerte &quot;el gorro de cocinero&quot; y 
+        convertirte en un anfitrión mostrándole al mundo tus dotes culinarios y dando a conocer tu propuesta de valor o 
+        puedes &quot;ocupar una silla en una mesa&quot; y compartir un momento diferente inspirado y preparado especialmente para vos como comensal agasajado.
+        La &quot;unión&quot; de comensales y anfitriones se genera en lo que denominamos &quot;evento gastronómico&quot;.
         </p>
-        <h3 className="home-title">Experiencias gastronómicas</h3>
+        {/* <h3 className="home-title">Experiencias gastronómicas</h3>
         <div className="wraper-home-experience">          
           <div className="description-image-experience flex-start">
             <div className="title-description-experience-local">
@@ -78,9 +80,9 @@ function Home() {
             </div>
             <img className="image-home-experience" src={ claseCocina } />
           </div>
-        </div>
+        </div> */}
       </section>
-      <section className="container-events">
+     {/*  <section className="container-events">
         <div className="all-example-events">
           <div className="wraper-event">
             <h3 className="title-event">Eventos privados</h3>
@@ -103,7 +105,7 @@ function Home() {
           </div>         
         </div>
         <img className="img-example-events" src={ ce5 } />
-      </section>
+      </section> */}
       <section className="container-host">
         <h3 className="home-title">Crea eventos gastronómicos</h3>       
           <Link to="beHost" className="wraper-host">

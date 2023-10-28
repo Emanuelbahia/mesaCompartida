@@ -7,9 +7,9 @@ function Navbar() {
     <div className="container-navbar"> 
       <Menu/>
       <div className="wraper-description">
-        <h3 className="name-dinner">¿Quieres vivir una experiencia culinaria única?</h3>
+        <h3 className="name-dinner">¿Querés vivir una experiencia gastronómica única y especial?</h3>
         <h4 className="description-dinner">
-          Te invitamos a disfrutar de comidas elaboradas y gourmet en casas particulares cuidadosamente seleccionadas.
+          Te invitamos a disfrutar de una &quot;Mesa Compartida&quot; en casas particulares.
         </h4>
       </div>
     </div>

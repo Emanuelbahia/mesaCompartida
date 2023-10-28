@@ -3,7 +3,7 @@ import "./we.css";
 function We() {
     return ( 
         <div className="container-we">
-            <h2 className="h2-we">¿Qué somos?</h2>
+           {/*  <h2 className="h2-we">¿Qué somos?</h2>
             <p className="p-we">
                 Una plataforma que conecta anfitriones con comensales. Se trata de una estructura dentro de la cual los usuarios
                 aportan valor entre ellos. Se crea una red donde un segmento de clientes, los anfitriones, ofrecen sus &quot;eventos gastronómicos&quot;,
@@ -12,7 +12,7 @@ function We() {
                 Cada anfitrión subirá el evento gastronómico que realizará en distintas fechas con todos los detalles de la misma, como la cantidad de lugares que tendrá
                 y la cena que hará esa noche.<br/>
                 Los comensales primero deberán registrarse para poder reservar sus lugares (sillas) en una experiencia gastronómica, en la fecha que deseen.
-            </p>
+            </p> */}
             <h2 className="h2-we">Términos y Condiciones:</h2>
             <h3 className="h3-we">
                 Al unirte a nuestra comunidad de &quot;Mesa compartida&quot;, aceptas nuestros términos y condiciones que garantizan una experiencia segura y satisfactoria para todos los usuarios:

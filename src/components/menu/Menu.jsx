@@ -31,9 +31,9 @@ function Menu() {
                 <span></span>
             </div>
             <div className={`div-links ${clicked ? "active" : ""} `}>
-                 <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/we">          
+                 {/* <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/we">          
                     <h4 className="p-link">¿Que somos?</h4>         
-                </Link> 
+                </Link>  */}
                 <Link className={`navbar-link  ${clicked ? "open" : ""} `} onClick={handleClick}  to="/beHost">         
                     <h4 className="p-link">Sé anfitrión</h4>         
                 </Link>
@@ -57,7 +57,7 @@ function Menu() {
                 
             </div> 
             <div className="navbar-menu">
-                <Link className="link-navbar-pc" to="/we">¿Que somos?</Link>
+                {/* <Link className="link-navbar-pc" to="/we">¿Que somos?</Link> */}
                 <Link className="link-navbar-pc" to="/beHost">Sé anfitrión</Link>
                 <Link className="link-navbar-pc m-r" to="/register">Sé comensal</Link>            
                 <Link className="link-navbar-pc" to="/dinner">Eventos gastronómicos</Link>             

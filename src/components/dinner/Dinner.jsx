@@ -35,7 +35,7 @@ function Dinner() {
                         </h4>
                         <p className="p-dinner-experience-description">
                             Mesa compartida te trae una experiencia gastronomica única y distintas a las demás.
-                            Experimenta una cena clandestina en la casa de nuestros anfitriones junto a tus amigos
+                            Experimenta una propuesta diferente en la casa de nuestros anfitriones junto a tus amigos
                             o seres queridos.
                         </p>
                     </div>
