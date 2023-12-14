@@ -44,7 +44,7 @@ function Experience() {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_ey78bg7', 'template_bizzg3p', form.current, 'dRlDu59wtjIMhCw_X')
+      emailjs.sendForm('service_3ld4ei1', 'template_bizzg3p', form.current, 'iAcDzY_w_WxLq3jDWN-kM')
         .then((result) => {
             console.log(result.text);
             setMessage(true);
