@@ -1,24 +1,29 @@
+import { useState } from "react";
 import wine from "../../assets/reg5.jpg";
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import Menu from "../menu/Menu";
+import Toast from 'react-bootstrap/Toast';
 import "./host.css";
 import Footer from "../footer/Footer";
 
 function Host() {
 
     const formGift = useRef();
+    const [message, setMessage] = useState(false);
 
     const sendEmail = (e) => {
       e.preventDefault();
+      setMessage(true);
+      formGift.current.reset(); //para resetear el formulario
 
-      emailjs.sendForm('service_ey78bg7', 'template_bizzg3p', formGift.current, 'dRlDu59wtjIMhCw_X')
+      /* emailjs.sendForm('service_ey78bg7', 'template_bizzg3p', formGift.current, 'dRlDu59wtjIMhCw_X')
         .then((result) => {
             console.log(result.text);
             formGift.current.reset(); //para resetear el formulario
         }, (error) => {
             console.log(error.text);
-        });
+        }); */
     };
 
     return ( 
@@ -55,6 +60,7 @@ function Host() {
             <div className="wraper-form-host">
                 <h3>Contáctanos</h3>
                 <h4>Completa el formulario y nos comunicaremos para definir tu perfil de anfitrión.</h4>
+                { !message ? 
                 <form ref={formGift} onSubmit={sendEmail} className='form-host'>
                     <label>Nombre:</label>
                     <input type="text" name="name_host" placeholder="Fernando" required/>
@@ -66,6 +72,14 @@ function Host() {
                     <input type="text" name="email_host" placeholder="fergalan@gmail.com" required/>
                     <button>Ser anfitrión</button>
                 </form>
+                 :
+                <Toast className='toast-host' onClose={() => setMessage(false)} show={message} delay={6000}  autohide >
+                     <Toast.Body className="description-toast">
+                       Se envió correctamente! <br/>
+                       Nos comunicaremos a la brevedad.
+                     </Toast.Body>
+                </Toast> 
+                }
             </div>
             <div style={{ width: "100vw" }}>
             <   Footer/>

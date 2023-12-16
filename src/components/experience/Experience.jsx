@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import host from "../../data/host.json";
 import { BsPeople, BsClock } from "react-icons/bs";
 import { BiDish, BiDrink } from "react-icons/bi";
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 import Carousel from 'react-multi-carousel';
 import Toast from 'react-bootstrap/Toast';
 import { AiFillStar } from "react-icons/ai";
@@ -43,15 +43,16 @@ function Experience() {
     
     const sendEmail = (e) => {
       e.preventDefault();
-
-      emailjs.sendForm('service_3ld4ei1', 'template_bizzg3p', form.current, 'iAcDzY_w_WxLq3jDWN-kM')
+      setMessage(true);
+      form.current.reset(); //para resetear el formulario
+      /* emailjs.sendForm('service_3ld4ei1', 'template_bizzg3p', form.current, 'iAcDzY_w_WxLq3jDWN-kM')
         .then((result) => {
             console.log(result.text);
             setMessage(true);
             form.current.reset(); //para resetear el formulario
         }, (error) => {
             console.log(error.text);
-        });
+        }); */
     };
 
     return ( 

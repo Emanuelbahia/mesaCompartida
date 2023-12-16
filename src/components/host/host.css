@@ -77,6 +77,19 @@
     padding: 1vw;
     margin-top: 4vw;
 }
+.toast-host{
+    background-color:#252525 !important;
+    margin-top: 2vh !important;
+    margin-bottom: 10vh!important;
+    color: orangered !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% ;
+    height: 15vh !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-size: 2.5vw !important;
+}
 
 @media (min-width: 701px) {
 
@@ -137,5 +150,8 @@
     }
     .form-host input {
         margin-bottom: 1.5vh;
+    }
+    .toast-host{
+        width: 45vh;
     }
 }
